@@ -1,156 +1,198 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EchoBot — Discord Bot</title>
+    <title>Easy Studios</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <nav>
-        <div class="logo">
-            🤖 EchoBot
+    <header class="site-header">
+        <div class="nav-container">
+
+            <a href="/" class="logo">
+                Easy Studios
+            </a>
+
+            <nav>
+                <a href="#games">Games</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
         </div>
-
-        <div class="nav-links">
-            <a href="#commands">Commands</a>
-            <a href="#about">About</a>
-        </div>
-    </nav>
+    </header>
 
 
-    <!-- HERO -->
-    <section class="hero">
+    <main>
 
-        <div class="hero-content">
+        <section class="hero">
 
-            <div class="status">
-                <span></span>
-                ONLINE
-            </div>
+            <div class="hero-content">
 
-            <h1>
-                Meet <span>EchoBot</span>
-            </h1>
+                <p class="eyebrow">
+                    Easy Studios
+                </p>
 
-            <p>
-                A fun Discord bot packed with useful commands,
-                a video hub, and a little bit of chaos.
-            </p>
+                <h1>
+                    We make games people want to play.
+                </h1>
 
-            <div class="buttons">
+                <p class="hero-text">
+                    Easy Studios is an independent game studio
+                    focused on creating games and experiences
+                    for players.
+                </p>
 
-                <a
-                    href="https://discord.com/oauth2/authorize?client_id=1542345333042839602"
-                    class="button primary"
-                    target="_blank"
-                >
-                    Add EchoBot
-                </a>
-
-                <a href="#commands" class="button secondary">
-                    View Commands
+                <a href="#games" class="button">
+                    View our games
                 </a>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- COMMANDS -->
-    <section id="commands" class="section">
+        <section id="games" class="section">
 
-        <h2>Commands</h2>
-
-        <p class="section-description">
-            Everything EchoBot can currently do.
-        </p>
-
-        <div class="command-grid">
-
-            <div class="command-card">
-                <div class="command-icon">🏓</div>
-
-                <h3>!ping</h3>
+            <div class="section-heading">
+                <h2>Games</h2>
 
                 <p>
-                    Check if EchoBot is online and responding.
+                    Projects we're currently working on.
                 </p>
             </div>
 
 
-            <div class="command-card">
-                <div class="command-icon">🎬</div>
+            <div class="game-grid">
 
-                <h3>!hub</h3>
+                <article class="game-card">
+
+                    <div class="game-image">
+                        <span>Coming Soon</span>
+                    </div>
+
+                    <div class="game-info">
+
+                        <h3>Coming Soon</h3>
+
+                        <p>
+                            We're working on something new.
+                        </p>
+
+                        <span class="game-status">
+                            In development
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="game-card">
+
+                    <div class="game-image">
+                        <span>Coming Soon</span>
+                    </div>
+
+                    <div class="game-info">
+
+                        <h3>More projects</h3>
+
+                        <p>
+                            More Easy Studios projects will be
+                            announced here.
+                        </p>
+
+                        <span class="game-status">
+                            Coming soon
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+
+                <h2>About Easy Studios</h2>
 
                 <p>
-                    Display EchoBot's favorite YouTube videos
-                    in a Discord embed.
+                    A little bit about who we are and what we do.
                 </p>
+
             </div>
 
 
-            <div class="command-card">
-                <div class="command-icon">🐰</div>
-
-                <h3>!uwu</h3>
+            <div class="about-content">
 
                 <p>
-                    Turn your message into an adorable uwu-style
-                    message.
+                    Easy Studios is a game development studio
+                    creating original experiences for online
+                    communities.
                 </p>
+
+                <p>
+                    We focus on making games that are easy to
+                    understand, fun to play, and worth coming back to.
+                </p>
+
             </div>
 
+        </section>
+
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-heading">
+
+                <h2>Contact</h2>
+
+                <p>
+                    Need to get in touch with Easy Studios?
+                </p>
+
+            </div>
+
+            <a
+                href="mailto:hello@easystudios.xyz"
+                class="button"
+            >
+                Contact us
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <span>
+                © 2026 Easy Studios
+            </span>
+
+            <span>
+                easystudios.xyz
+            </span>
+
         </div>
-
-    </section>
-
-
-    <!-- ABOUT -->
-    <section id="about" class="section about">
-
-        <h2>About EchoBot</h2>
-
-        <p>
-            EchoBot is a personal Discord bot built with
-            Python and discord.py.
-        </p>
-
-        <p>
-            More features are coming soon.
-        </p>
-
-        <a
-            href="https://discord.com/oauth2/authorize?client_id=1542345333042839602"
-            class="button primary"
-            target="_blank"
-        >
-            Invite EchoBot
-        </a>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div class="footer-logo">
-            🤖 EchoBot
-        </div>
-
-        <p>
-            © 2026 EchoBot. Built with Python.
-        </p>
 
     </footer>
 
 </body>
 </html>
+```
