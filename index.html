@@ -1,229 +1,330 @@
-```html
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>EchoBot</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <div class="nav">
+    <div class="container nav">
 
-        <a href="/" class="brand">
-            EchoBot
-        </a>
+```
+    <a href="https://easystudios.xyz/" class="logo">
+        EchoBot
+    </a>
 
-        <nav>
-            <a href="#commands">Commands</a>
-            <a href="#premium">Premium</a>
-            <a href="#about">About</a>
-        </nav>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#commands">Commands</a>
+        <a href="#premium">Premium</a>
+    </nav>
 
-        <a href="#commands" class="nav-button">
-            Get Started
-        </a>
+    <a href="https://discord.com/oauth2/authorize" class="button">
+        Add to Discord
+    </a>
 
-    </div>
+</div>
+```
+
 </header>
-
 
 <main>
 
-    <section class="hero">
+```
+<section class="hero">
+    <div class="container">
 
         <div class="hero-content">
 
-            <div class="tag">
-                Discord Bot
-            </div>
+            <p class="small-title">
+                DISCORD BOT
+            </p>
 
             <h1>
-                Meet EchoBot.
+                EchoBot
             </h1>
 
-            <p>
-                A simple Discord bot with utility commands,
-                Roblox tools, TTS, quotes, and more.
+            <p class="hero-description">
+                A Discord bot with useful tools, fun commands,
+                Roblox lookups, voice features, and more.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#commands" class="button primary">
-                    View Commands
-                </a>
-
-                <a href="#premium" class="button secondary">
-                    Premium
-                </a>
-            </div>
+            <a href="https://discord.com/oauth2/authorize" class="button">
+                Add EchoBot
+            </a>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
 
-    <section id="commands" class="section">
+<section id="features" class="section">
 
-        <div class="section-title">
-            <p class="label">COMMANDS</p>
+    <div class="container">
 
-            <h2>
-                What EchoBot can do
-            </h2>
+        <div class="section-header">
+            <h2>Features</h2>
 
             <p>
-                Everything you need, without a bunch of unnecessary stuff.
+                Some of the things you can do with EchoBot.
             </p>
         </div>
 
 
-        <div class="command-grid">
+        <div class="games">
 
-            <div class="command-card">
-                <span class="command">/ping</span>
-                <h3>Ping</h3>
-                <p>
-                    Check whether EchoBot is online and responding.
-                </p>
+            <div class="game-card">
+
+                <div class="game-thumbnail">
+                    Roblox
+                </div>
+
+                <div class="game-details">
+                    <h3>Roblox Lookup</h3>
+
+                    <p>
+                        Look up Roblox users and view their
+                        public profile information.
+                    </p>
+                </div>
+
             </div>
 
 
-            <div class="command-card">
-                <span class="command">/uwu</span>
-                <h3>Uwu</h3>
-                <p>
-                    Turn text into an uwu-style message.
-                </p>
+            <div class="game-card">
+
+                <div class="game-thumbnail">
+                    Voice
+                </div>
+
+                <div class="game-details">
+                    <h3>Text to Speech</h3>
+
+                    <p>
+                        EchoBot can join a voice channel and
+                        read messages aloud.
+                    </p>
+                </div>
+
             </div>
 
 
-            <div class="command-card">
-                <span class="command">/roblox</span>
-                <h3>Roblox Lookup</h3>
-                <p>
-                    Look up public information about a Roblox user.
-                </p>
+            <div class="game-card">
+
+                <div class="game-thumbnail">
+                    Quotes
+                </div>
+
+                <div class="game-details">
+                    <h3>Quote Images</h3>
+
+                    <p>
+                        Turn a Discord message into a quote
+                        image with the user's profile picture.
+                    </p>
+
+                    <span>Premium</span>
+                </div>
+
             </div>
 
 
-            <div class="command-card premium-card">
-                <span class="command">/quote</span>
-                <h3>Quote</h3>
-                <p>
-                    Create an image quote from a Discord message.
-                </p>
+            <div class="game-card">
 
-                <span class="premium-label">Premium</span>
-            </div>
+                <div class="game-thumbnail">
+                    Uwu
+                </div>
 
+                <div class="game-details">
+                    <h3>Uwu</h3>
 
-            <div class="command-card">
-                <span class="command">/join</span>
-                <h3>Voice</h3>
-                <p>
-                    Connect EchoBot to your current voice channel.
-                </p>
-            </div>
+                    <p>
+                        Transform text into an uwu-style
+                        message using EchoBot.
+                    </p>
+                </div>
 
-
-            <div class="command-card">
-                <span class="command">TTS</span>
-                <h3>Text to Speech</h3>
-                <p>
-                    EchoBot can read messages aloud while connected
-                    to a voice channel.
-                </p>
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <section id="premium" class="section premium-section">
+<section id="commands" class="section">
 
-        <div class="premium-box">
+    <div class="container">
 
-            <div>
-                <p class="label">ECHOBOT PREMIUM</p>
+        <div class="section-header">
+            <h2>Commands</h2>
 
-                <h2>
-                    More features for your server.
-                </h2>
+            <p>
+                Available EchoBot commands.
+            </p>
+        </div>
 
-                <p>
-                    Premium commands and features are available
-                    to users who have redeemed an active EchoBot
-                    Premium license.
-                </p>
+
+        <div class="games">
+
+            <div class="game-card">
+                <div class="game-details">
+                    <h3>/ping</h3>
+
+                    <p>
+                        Check if EchoBot is online.
+                    </p>
+                </div>
             </div>
 
-            <a href="#" class="button primary">
+
+            <div class="game-card">
+                <div class="game-details">
+                    <h3>/uwu</h3>
+
+                    <p>
+                        Convert text into an uwu-style message.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="game-card">
+                <div class="game-details">
+                    <h3>/roblox</h3>
+
+                    <p>
+                        Look up a Roblox user.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="game-card">
+                <div class="game-details">
+                    <h3>/join</h3>
+
+                    <p>
+                        Have EchoBot join your voice channel.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="game-card">
+                <div class="game-details">
+                    <h3>/quote</h3>
+
+                    <p>
+                        Create a quote image from a Discord
+                        message.
+                    </p>
+
+                    <span>Premium</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="premium" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+            <h2>EchoBot Premium</h2>
+
+            <p>
+                Unlock additional features with Premium.
+            </p>
+        </div>
+
+
+        <div class="about">
+
+            <p>
+                EchoBot Premium gives users access to
+                premium commands and features.
+            </p>
+
+            <p>
+                One of the premium features is the
+                <strong>/quote</strong> command, which lets
+                you create an image from a Discord message.
+            </p>
+
+            <a href="https://echobot.sell.app/" class="button">
                 Get Premium
             </a>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <section id="about" class="section about-section">
+<section class="section">
 
-        <div class="section-title">
-            <p class="label">ABOUT</p>
+    <div class="container">
+
+        <div class="about">
+
+            <p class="small-title">
+                ECHOBOT
+            </p>
 
             <h2>
-                Built for Discord.
+                Add EchoBot to your server.
             </h2>
-        </div>
-
-        <div class="about-text">
 
             <p>
-                EchoBot is a Discord bot built to provide useful
-                commands and a few things to make your server more fun.
+                Bring EchoBot into your Discord server and
+                start using its commands.
             </p>
 
-            <p>
-                New features and commands can be added over time.
-            </p>
+            <a href="https://discord.com/oauth2/authorize" class="button">
+                Add to Discord
+            </a>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+```
 
 </main>
 
-
 <footer>
 
-    <div class="footer-content">
+```
+<div class="container footer-content">
 
-        <div>
-            <strong>EchoBot</strong>
-            <p>Discord bot made for communities.</p>
-        </div>
-
-        <div class="footer-links">
-            <a href="#commands">Commands</a>
-            <a href="#premium">Premium</a>
-            <a href="#about">About</a>
-        </div>
-
+    <div>
+        <p>EchoBot</p>
     </div>
 
-    <div class="copyright">
-        © 2026 EchoBot
+    <div>
+        <p>© 2026 Easy Studios</p>
     </div>
+
+</div>
+```
 
 </footer>
 
 </body>
 </html>
-```
 
